@@ -17,8 +17,7 @@ public class Employee extends Person
       return id;
    }
    
-   public static void main(String[] args)
-   {
+   public static void main(String[] args){
       Employee emp = new Employee();
       emp.setName("Dina");
       System.out.println(emp.getName());

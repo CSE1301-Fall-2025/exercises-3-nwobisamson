@@ -18,10 +18,11 @@ public class Employee extends Person
       return id;
    }
    
-   public static void main(String[] args)
-   {
+   public static void main(String[] args) {
+      Person emi = new Employee("yuri");
       Employee emp = new Employee("Dani");
       System.out.println(emp.getName());
       System.out.println(emp.getId());
+      System.out.println(emi.getName());
    }
 }
